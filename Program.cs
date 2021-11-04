@@ -23,10 +23,11 @@ namespace RhombusPyramid
 
             for (int counter = 1; counter <= number; counter++)
             {
-                for (int asterisk = 1; asterisk <= counter; asterisk++)
+                for (int asterisks = 1; asterisks <= counter; asterisks++)
                 {
-                    Console.WriteLine("*");
+                    Console.Write("*");
                 }
+                Console.Write(Environment.NewLine);
             }
         }
     }
