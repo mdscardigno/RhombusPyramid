@@ -28,7 +28,7 @@ namespace RhombusPyramid
                     Console.Write("*");
                 }
                 Console.Write(Environment.NewLine);
-                //TBC
+                //TBC today
             }
         }
     }
